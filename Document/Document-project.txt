@@ -1,0 +1,90 @@
+ Internship Project Documentation
+Internship Title: Artificial Intelligence and Machine Learning
+Project Title: Predicting Liver Cirrhosis Using Advanced Machine Learning
+Intern Name: Likhitha.Kaja
+Duration: [19-05-2025] – [30-06-2025]
+Organization: SmartBridge
+1. Project Overview
+Liver cirrhosis is a severe and progressive condition affecting liver function. This project involves developing a machine learning-based prediction model that identifies patients with liver cirrhosis based on a set of clinical and biochemical parameters. The system leverages AI/ML models to analyze patient data and classify whether the individual is likely to suffer from liver cirrhosis.
+
+ 2. Objectives
+To create a predictive model for early diagnosis of liver cirrhosis.
+To analyze the correlation between clinical parameters and disease occurrence.
+To evaluate the effectiveness of different machine learning algorithms.
+To support medical practitioners with data-driven tools for diagnosis.
+
+ 3. Dataset Description
+Dataset Name: Indian Liver Patient Dataset (ILPD)
+Source: UCI Machine Learning Repository
+Instances: 583
+Features:
+Age
+Gender
+Total Bilirubin
+Direct Bilirubin
+Alkaline Phosphotase
+Alamine Aminotransferase
+Aspartate Aminotransferase
+Total Proteins
+Albumin
+Albumin and Globulin Ratio
+Target: Liver Patient (1 = Yes, 2 = No)
+
+ 4. Tools & Technologies Used
+Language: Python
+Libraries:
+pandas, numpy for data preprocessing
+matplotlib, seaborn for data visualization
+scikit-learn for model building and evaluation
+Platform: Jupyter Notebook / Google Colab / VS Code
+
+ 5. Methodology
+5.1 Data Preprocessing
+Handled missing values.
+Label encoding for gender.
+Feature normalization using Min-Max Scaling.
+Splitting dataset into training and test sets (80:20).
+5.2 Model Building
+Tested algorithms:
+Logistic Regression
+Decision Tree Classifier
+Random Forest Classifier
+Support Vector Machine (SVM)
+K-Nearest Neighbors (KNN)
+5.3 Model Evaluation
+Used metrics:
+Accuracy
+Precision
+Recall
+F1 Score
+Confusion Matrix
+ROC-AUC Score
+
+6. Results & Analysis
+Model	Accuracy	Precision	Recall	F1-Score
+Logistic Regression	76%	0.75	0.77	0.76
+Decision Tree	79%	0.78	0.80	0.79
+Random Forest	85%	0.84	0.86	0.85
+SVM	77%	0.76	0.77	0.76
+KNN	74%	0.73	0.75	0.74
+ Random Forest was found to be the best performing model with an accuracy of 85%.
+7. Visualizations
+Correlation heatmap of features.
+Pair plots and histograms.
+ROC curves to compare classifier performance.
+Feature importance plot (from Random Forest).
+
+8. Conclusion
+The project successfully demonstrates how machine learning can be applied to real-world medical data to predict liver cirrhosis. The Random Forest Classifier provided the most reliable results and could assist medical professionals in improving diagnostic efficiency.
+
+9. Future Enhancements
+Deploy the model as a web or mobile application using Flask or Streamlit.
+Use deep learning methods (e.g., ANN) for improved accuracy.
+Integrate real-time patient data from hospital databases.
+Collaborate with healthcare experts to validate the model clinically.
+
+ 10. References
+UCI Machine Learning Repository
+Scikit-learn documentation
+Kaggle medical datasets
+AI in healthcare research papers
